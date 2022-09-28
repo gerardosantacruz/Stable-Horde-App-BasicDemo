@@ -5,7 +5,7 @@ import axios from 'axios'
 function App() {    
   const [img64, setImg64] = useState('');
   const [prompt, setPrompt] = useState('');
-  const [txtprompt, setTxtPrompt] = useState('');
+  const [txtprompt, setTxtPrompt] = useState(''); 
   
   const headers = {
     'Content-Type': 'application/json',
